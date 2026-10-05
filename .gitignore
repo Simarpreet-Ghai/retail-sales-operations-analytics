@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Local/generated data
+data/raw/*
+data/processed/*
+data/analytics/*
+data/powerbi/*
+
+# Generated outputs
+outputs/*
+
+# Keep selected portfolio outputs
+!outputs/business_findings.md
+!outputs/baseline_reconciliation.csv
+!outputs/duckdb_validation_results.csv
+!outputs/integrity_report.md
+!outputs/test_results.txt
+
+# Power BI temporary/backup files
+*_REBUILD.pbix
+*_FINAL.pbix
+*_CORRUPTED*.pbix
+*_REPAIRED*.pbix
+Retail_RAIONLYCSED.pbix

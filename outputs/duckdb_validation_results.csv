@@ -1,0 +1,21 @@
+check_name,actual_value,expected_value,status
+anonymous_sales_map_to_unknown_customer,228488,228488,PASS
+cancellations_and_returns_are_excluded_from_fact,0,0,PASS
+date_dimension_is_continuous,739,739,PASS
+dimension_keys_and_natural_keys_are_unique,0,0,PASS
+fact_date_range_matches_date_dimension_bounds,2009-12-01 to 2011-12-09,2009-12-01 to 2011-12-09,PASS
+fact_foreign_keys_resolve,0,0,PASS
+fact_measures_are_positive,0,0,PASS
+fact_required_fields_are_not_null,0,0,PASS
+fact_revenue_formula_is_valid,0,0,PASS
+fact_revenue_reconciles_to_staging_sales,20476260.45,20476260.45,PASS
+fact_row_count_matches_audit,1007913,1007913,PASS
+fact_rows_match_sale_status_rows,1007913,1007913,PASS
+fact_sales_line_id_is_unique,0,0,PASS
+raw_to_staging_row_reconciliation,1067371,1067371,PASS
+staging_dates_are_valid,0,0,PASS
+staging_has_no_exact_business_duplicates,0,0,PASS
+staging_row_count_matches_audit,1033036,1033036,PASS
+staging_source_line_id_is_unique,0,0,PASS
+staging_statuses_cover_every_row,0,0,PASS
+valid_sale_definition_is_enforced,0,0,PASS
