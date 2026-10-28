@@ -6,12 +6,6 @@ I used the UCI Online Retail II dataset, which has over one million transaction 
 
 I used Python and pandas to clean the data, DuckDB and SQL to organize and analyze it, and Power BI to build an interactive dashboard. I also added tests and validation checks throughout the project because I wanted to make sure the numbers in the final dashboard actually matched the data behind them.
 
-## Demo
-
-[Watch the Power BI dashboard walkthrough](YOUR_VIDEO_LINK_HERE)
-
-In the video, I go through the main parts of the dashboard and show how the date and country filters change the results.
-
 ![Retail Sales & Operations Analytics Dashboard](images/retail_sales_dashboard.png)
 
 The actual Power BI file is also included in the project:
